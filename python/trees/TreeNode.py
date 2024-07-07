@@ -4,7 +4,7 @@ class TreeNode:
         self.left = None
         self.right = None
     
-    #Level Order Insert
+    #Level Order Insert (Produces a 'Complete Binary Tree')
     def insert(self, node: 'TreeNode'):        
         if not self:
             self = node
